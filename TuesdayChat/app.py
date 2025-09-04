@@ -59,6 +59,3 @@ def chat():
             'error': 'Sorry, I encountered an error while processing your message. Please try again!',
             'status': 'error'
         }), 500
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
